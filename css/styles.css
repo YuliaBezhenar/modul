@@ -341,3 +341,45 @@ a::after{
     display: none;
   }
 }
+
+@media screen and (max-width:500px) {
+  .main_menu{
+    display: none;
+  }
+  .main_content_flex{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+  }
+  .main_section{
+    display: inline-block;
+    border: 1px solid #14cc00;
+    width: 100%;
+    padding: 1%;
+    margin-top: 2%;
+    align-items: center;
+  }
+  .sections{
+    justify-content: space-around;
+    padding-left: 5%;
+    width: 100%;    
+    align-items: center;
+  }
+  .main_content_footer{
+    background-color: #14cc00;
+    color: white;
+    margin-top: 5%;
+    padding: 2%;
+    align-items: center;
+  }
+
+  .aside_right{
+    display: inline-block;
+    width: 100%;
+    margin-left: 3%;
+    position: relative;
+    padding: 1%;
+    align-items: center;
+  }
+  
+}
